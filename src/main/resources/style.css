@@ -1,0 +1,64 @@
+.root {
+    -fx-background-color: #fafafa;
+    -fx-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dbdbdb;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.header-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #262626;
+}
+
+.sub-title {
+    -fx-font-size: 13px;
+    -fx-text-fill: #8e8e8e;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #fafafa;
+    -fx-border-color: #dbdbdb;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-padding: 9px 10px;
+    -fx-font-size: 12px;
+    -fx-text-fill: #262626;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #a8a8a8;
+}
+
+.btn-primary {
+    -fx-background-color: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-opacity: 0.9;
+}
+
+.btn-secondary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #0095f6;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-text-fill: #00376b;
+}
